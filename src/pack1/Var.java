@@ -23,7 +23,7 @@ public class Var {
 	}catch(IOException e) {
 		e.printStackTrace();
 		System.out.println("Bilder gehen nicht ");
-	}
+	} 
 	
 	
 		 
