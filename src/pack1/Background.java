@@ -13,17 +13,21 @@ public class Background {
 			@Override
 			public void run() {
 				
-				if(Var.backgroundY1 < 796) {
-					Var.backgroundY1 += 2; 
+				if(Var.backgroundx1 > -800) {
+					Var.backgroundx1 -= 2; 
+					
 				}else {
-					Var.backgroundY1 = -800; 
+				
+					Var.backgroundx1 = 800; 
 				}
 				
 				
-				if(Var.backgroundY2 < 796) {
-					Var.backgroundY2 += 2; 
+				if(Var.backgroundx2 > -800) {
+					Var.backgroundx2 -= 2; 
+					
 				}else {
-					Var.backgroundY2 = -800; 
+					
+					Var.backgroundx2 = 800; 
 				}
 				
 			}
