@@ -16,7 +16,10 @@ protected void paintComponent(Graphics g) {
 	
 	g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 	
-	g.drawImage(new Im, 0, 0, null);
+	g.drawImage(Var.ib1, 0, Var.backgroundY1,800, 600, null);
+	g.drawImage(Var.ib2, 0, Var.backgroundY2,800, 600, null);
+	g.drawImage(Var.iHelicos, Var.x, Var.y, 150, 180, null );
+	repaint();
 	
 }
 

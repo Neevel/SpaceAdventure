@@ -7,7 +7,7 @@ public class Main {
 		new Var(); 
 		new KeyHandler();  
 		new Label(); 
-
+		new Background(); 
 	}
 
 }

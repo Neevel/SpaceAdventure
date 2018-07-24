@@ -21,7 +21,8 @@ public class Gui {
 		
 		
 		Var.lbl1 = new Label(); 
-		Var.lbl1.setBounds(0,0, Var.screenWidth, Var.screenHeight); 
+		Var.lbl1.setBounds(0,0, Var.screenWidth, Var.screenHeight);
+		Var.lbl1.setVisible(true);
 		Var.jf1.add(Var.lbl1); 
 		
 		
